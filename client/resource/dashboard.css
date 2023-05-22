@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat+Alternates&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    height: 100vh;
+    background: url('./images/background.jpg') fixed no-repeat;
+    background-size: cover;
+
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+h1 img{
+    margin-top: 20px;
+    width: 300px;
+}
+ 
+.frost-glass {
+    backdrop-filter: blur(5px) brightness(70%) saturate(120%);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.frost-glass h1,
+.frost-glass h2,
+.frost-glass p {
+    color: #fff;
+}
+
+
+.targetdiv {
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .corner-add {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 2px 5px rgba(217, 210, 210, 0.4);
+    backdrop-filter: blur(5px) brightness(70%) saturate(120%);
+    background: rgba(68, 121, 255, 0.79);
+    cursor: pointer;
+    
+  }
+
+  .corner-add a{
+    font-size: 20px;
+  }
+  
